@@ -16,10 +16,10 @@ You can easily adjust the breakpoints and the colors by passing in different par
         });
     });
 
-format: 'em',    // String
-* Allows you to choose whether your breakpoints will be EM or pixel-based. 
-breakpoints: [],         // Array
-* The breakpoints you'd like to test against. If in the previous parameter you chose 'em', be sure to use 30 rather than 480, for example.
-colors: [],              // Array
-* The colors for each of the corresponding breakpoints in the previous parameter. **The number of items in both breakpoints[] and colors[] should match**.
+* format: 'em',    // String
+* * Allows you to choose whether your breakpoints will be EM or pixel-based. 
+* breakpoints: [],         // Array
+* * The breakpoints you'd like to test against. If in the previous parameter you chose 'em', be sure to use 30 rather than 480, for example.
+* colors: [],              // Array
+* * The colors for each of the corresponding breakpoints in the previous parameter. **The number of items in both breakpoints[] and colors[] should match**.
 
