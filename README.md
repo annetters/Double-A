@@ -2,10 +2,76 @@
 ## A responsive tool for locating breakpoints in a stylesheet
 ### by Annette Arabasz ([arabasz.com](http://arabasz.com)) & Nick Snyder ([fasterhorses.co](http://fasterhorses.co))
 
+
+## Summary
 Double A is a responsive tool for locating named breakpoints in a stylesheet. It is helpful for locating the area of your CSS issue without having to open the web inspector. 
 
 Double A works by appending a fixed tab to the bottom of your webpage that shows both the current pixel width of the viewport and a color. The color of the tab is representative of the area where the CSS error will happen. While you can assign your own colors, we suggesting sticking with the ROYGBIV mnemonic, as it is easy to remember.
 
+Excited? Sick of reading? Here's an [example of Double A in-action](http://fstrhrs.com/assets/double-a/index.html)!
+
+## Naming and Locating Breakpoints
+To properly reap all the benefits from Double A, be sure to place comment flags in your CSS file noting each of the sections. Using the default values Double A provides, our stylesheet would look like:
+
+    /*
+    ==================================================
+        Red: No Breakpoints
+    ==================================================
+    */
+    
+    
+    /*
+    ==================================================
+        Orange: 30em
+    ==================================================
+    */
+    
+    @media screen and (min-width: 30em) {
+    
+    }
+    
+    /*
+    ==================================================
+        Yellow: 40em
+    ==================================================
+    */
+    
+    @media screen and (min-width: 40em) {
+    
+    }
+    
+    /*
+    ==================================================
+        Green: 50em
+    ==================================================
+    */
+    
+    @media screen and (min-width: 50em) {
+    
+    }
+    
+    /*
+    ==================================================
+        Blue: 60em
+    ==================================================
+    */
+    
+    @media screen and (min-width: 60em) {
+    
+    }
+    
+    
+    /*
+    ==================================================
+        Purple: 75em
+    ==================================================
+    */
+    
+    @media screen and (min-width: 75em) {
+    
+    }
+
+## Technical Documentation
 You can easily adjust the breakpoints and the colors by passing in different parameters. Please refer to the sample code below:
 
     $(document).ready(function() {
