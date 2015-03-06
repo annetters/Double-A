@@ -1,6 +1,6 @@
 # Double A
 ## A responsive tool for locating breakpoints in a stylesheet
-### by Annette Arabasz ([arabasz.com](http://arabasz.com)) & Nick Snyder ([fasterhorses.co](http://fasterhorses.co))
+### by Annette Arabasz ([arabasz.com](http://arabasz.com)), Nick Snyder ([fasterhorses.co](http://fasterhorses.co)) and Aaron Boudreau. ([madpow.com/aaron-boudreau](http://www.madpow.com/team/aaron-boudreau))
 
 
 ## Summary & Example
