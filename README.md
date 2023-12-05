@@ -8,11 +8,12 @@ Double A is a Javascript-based responsive tool for locating named breakpoints in
 
 Double A works by appending a fixed tab to the bottom of your webpage that shows both the current pixel width of the viewport and a color. The color of the tab is representative of the area where the CSS error will happen. While you can assign your own colors, we suggesting sticking with the ROYGBIV mnemonic, as it is easy to remember.
 
+https://annetters.github.io/Double-A/
+
 ![image](https://github.com/annetters/Double-A/assets/751308/902cfb5e-b72f-4dbe-929d-769fdf206108)
 
 ![image](https://github.com/annetters/Double-A/assets/751308/e6dd21e8-7134-4dec-9153-9e9232b9ceb7)
 
-~~Excited? Sick of reading? Here's an [example of Double A in-action](http://fstrhrs.com/assets/double-a/index.html)!~~
 
 ## Naming and Locating Breakpoints
 To properly reap all the benefits from Double A, be sure to place comment flags in your CSS file noting each of the sections. Using the default values Double A provides, our stylesheet would look like:
