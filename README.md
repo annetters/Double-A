@@ -13,6 +13,8 @@ Double A works by appending a fixed tab to the bottom of your webpage that shows
 ![image](https://github.com/annetters/Double-A/assets/751308/902cfb5e-b72f-4dbe-929d-769fdf206108 | width=300)
 
 
+[[ [http://url.to/image.png](https://github.com/annetters/Double-A/assets/751308/902cfb5e-b72f-4dbe-929d-769fdf206108) | height = 100px ]]
+
 ~~Excited? Sick of reading? Here's an [example of Double A in-action](http://fstrhrs.com/assets/double-a/index.html)!~~
 
 ## Naming and Locating Breakpoints
